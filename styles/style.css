@@ -114,6 +114,23 @@ header{
     width: 100%;
 }
 
+/* ! Marquee section */
+
+.marquee{
+    max-width: 1160px;
+    margin: 10px auto;
+}
+marquee{
+    padding: 10px 5px;
+    background-color: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    border-radius: 5px;
+}
+
 /* ! Standard curriculum section design */
 
 .standard_curriculum_section{
