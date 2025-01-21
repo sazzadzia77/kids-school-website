@@ -27,6 +27,7 @@
     font-weight: 600;
     line-height: 1.9rem;
     border: none;
+    cursor: pointer;
 }
 
 /* ! Header Design */
@@ -341,6 +342,7 @@ header{
     line-height: 1.8rem;
     border: none;
     margin-top: 80px;
+    cursor: pointer;
 }
 
 /* ! Footer Design */
