@@ -500,6 +500,9 @@ footer{
         padding-left: 15px;
         padding-right: 15px;
     }
+    .footer_content1 > p{
+        font-size: 1rem;
+    }
     .footer_content2{
         margin-top: 32px;
         margin-bottom: 32px;
