@@ -478,6 +478,8 @@ footer{
         font-size: .6rem;
         font-weight: 500;
         line-height: 1rem;
+        padding: 6px 12px;
+        top: -63px;
     }
     .our_stories_right_card_content_container > p{
     font-size: .6rem;
