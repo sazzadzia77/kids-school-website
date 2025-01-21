@@ -113,6 +113,111 @@ header{
     width: 100%;
 }
 
+/* ! Standard curriculum section design */
+
+.standard_curriculum_section{
+    background: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.standard_curriculum_container > h2{
+    color: rgb(0, 0, 0);
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.standard_curriculum_container{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.standard_curriculum_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+}
+.standard_curriculum_card{
+    border-radius: 18.86px;
+    max-width: 368px;
+    padding: 52px 40px 53px 40px;
+    text-align: center;
+}
+.standard_curriculum_card_img_container{
+    margin: 0 auto;
+    width: 50%;
+}
+.standard_curriculum_card_img_container img{
+    width: 100%;
+}
+.standard_curriculum_card > h3{
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin-top: 37px;
+    margin-bottom: 33px;
+}
+.standard_curriculum_card > p{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: .9rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin-bottom: 38px;
+}
+.standard_curriculum_card > a{
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    text-decoration: none;
+}
+/* special design for standard card */
+#standard_card1{
+    border: 0.94px solid rgb(222, 245, 255);
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+#standard_card1 a{
+    color: rgb(100, 200, 255);
+}
+#standard_card2{
+    border: 0.94px solid rgb(255, 244, 220);
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+#standard_card2 a{
+    color: rgb(240, 170, 0);
+}
+#standard_card3{
+    border: 0.94px solid rgb(242, 232, 255);
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+#standard_card3 a{
+    color: rgb(135, 0, 255);
+}
+/* Standard curriculum nav */
+.standard_curriculum_nav{
+    margin-top: 80px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.standard_curriculum_nav button{
+    background: rgb(254, 163, 1);
+    color: #ffffff;
+    padding: 16px 22px;
+    font-size: 24px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
 
 
 
@@ -142,6 +247,23 @@ header{
     .header_banner_left_content_container h2{
         font-size: 2rem;
         line-height: 2.5rem;
+    }
+    .standard_curriculum_section{
+        /* background-size: contain; */
+        background-position: top right;
+    }
+    .standard_curriculum_cards{
+        flex-direction: column;
+    }
+    .standard_curriculum_container{
+        padding: 0 15px;
+    }
+    .standard_curriculum_container h2{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .standard_curriculum_nav{
+        display: none;
     }
     
 }
