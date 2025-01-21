@@ -471,6 +471,9 @@ footer{
     .our_stories_left{
         display: none;
     }
+    .our_stories_right_cards{
+        gap: 11px;
+    }
     .our_stories_right_card_content_container{
         padding-left: 22px;
     }
