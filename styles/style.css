@@ -236,6 +236,9 @@ marquee{
     border: none;
     cursor: pointer;
 }
+.standard_curriculum_nav button:hover{
+    background: #01ACFD;
+}
 
 /* ! Our stories section design */
 
